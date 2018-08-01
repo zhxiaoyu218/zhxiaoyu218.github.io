@@ -1,7 +1,8 @@
 ---
-layout: "page"
+layout: category
 title: Robotics
 permalink: /robotics/
+title-image: index_banner.png
 ---
 
-my robotics story
+motion planning, robot control, robot learning, etc
