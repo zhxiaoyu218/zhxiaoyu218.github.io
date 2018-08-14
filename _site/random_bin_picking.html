@@ -11,30 +11,54 @@
 <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
 
 <!-- All css files works for all pages which have head.html --><link rel="stylesheet" href=" /customize.css "></head>
-<body><nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark mb-4">
+<body><nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Xiaoyu Zhang</a>
 
-    <!---->
-<!--<a class="navbar-brand" href="/"><img class="navbar-logo" src=" favicon.png "/> &nbsp; Xiaoyu Zhang</a>-->
-      <div class="collapse navbar-collapse" id="navbarCollapse"><ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
-          </li>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/projects/"> Projects </a>
-          </li>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
 
-<!--           <li class="nav-item">
-            <a class="nav-link" href="/robotics/"> Robotics </a>
-          </li> -->
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/about/">About</a>
-          </li>
-        </ul>
-      </div>
+
+<!--*******************       project items       ******************* -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/projects/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/projects/">All Projects</a>
+          <a class="dropdown-item" href="/robotics/">Robotics</a>
+          <a class="dropdown-item" href="/machinelearning/">Mechine Learning</a>
+        </div>
+      </li>
+
+<!--*******************       about items       ******************* -->
+      <li class="nav-item">
+        <a class="nav-link" href="/about/">About</a>
+      </li>
+
+
+    </ul>
+  </div>
+
 </nav>
-<main role="main">
+
+
+<!-- bootstrap -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><main role="main">
 
         <div class="container post-container">
 
@@ -101,31 +125,34 @@
 <div class="container"><footer class="pt-4 my-md-5 pt-md-5 border-top">
   <div class="row">
     <div class="col-12 col-md">
-      <!-- <img class="mb-2" src="/assets/favicon.png" alt="" width="24"> -->
-      <!-- <h4>darkthecross workshop</h4> -->
-      <!-- <small class="d-block mb-3 text-muted">&copy; 2018</small> -->
+<!--       <img class="mb-2" src="/assets/favicon.png" alt="" width="24">
+      <h4>darkthecross workshop</h4>
+      <small class="d-block mb-3 text-muted">&copy; 2018</small> -->
     </div>
-    <div class="col-6 col-md">
-      <h5>Contacts</h5>
-      <ul  class="list-unstyled text-small"><li class="text-muted"> <i class="fas fa-envelope"></i> <a class="u-email text-muted" href="mailto:zhxiaoyu@umich.edu">zhxiaoyu@umich.edu</a></li><li class="text-muted"> <i class="fab fa-github"></i> <a class="text-muted" href="https://github.com/zhxiaoyu218" target="_blank"><span class="username">zhxiaoyu218</span></a></li><li class="text-muted"> <i class="fab fa-linkedin"></i> <a class="text-muted" href="https://www.linkedin.com/in/xiaoyu-zhang-699742119/" target="_blank"><span class="username">Xiaoyu Zhang</span></a></li></ul>
-    </div>
-    <!-- <div class="col-18 col-md">
-      <h5>Links</h5>
+
+     <div class="col-6 col-md">
+<!--       <h5>Links</h5>
       <ul class="list-unstyled text-small">
         <li>The beloved one: <a class="text-muted" target="_blank" href="#">Siseventeen</a></li>
         <li>This site was made with: <a class="text-muted" target="_blank" href="http://jekyllrb.com"><i class="fas fa-vial"></i>Jekyll</a></li>
         <li>Hosted with ❤ by : <a class="text-muted" target="_blank" href="http://github.com"> <i class="fab fa-github-square"></i> Github</a></li>
-      </ul>
-    </div> -->
+      </ul> -->
+    </div>
+
+
+
+
+
+    <div class="col-18 col-md">
+      <h5>Contacts</h5>
+      <ul  class="list-unstyled text-small"><li class="text-muted"> <i class="fas fa-envelope"></i> <a class="u-email text-muted" href="mailto:zhxiaoyu@umich.edu">zhxiaoyu@umich.edu</a></li><li class="text-muted"> <i class="fab fa-github"></i> <a class="text-muted" href="https://github.com/zhxiaoyu218" target="_blank"><span class="username">zhxiaoyu218</span></a></li><li class="text-muted"> <i class="fab fa-linkedin"></i> <a class="text-muted" href="https://www.linkedin.com/in/xiaoyu-zhang-699742119/" target="_blank"><span class="username">Xiaoyu Zhang</span></a></li></ul>
+    </div>
+
+
+
   </div>
 </footer>
 
-<!-- bootstrap -->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </div>
   </body>
 
