@@ -32,3 +32,14 @@ body {
 .logo-img {
     max-height: 30px;
 }
+
+.project-card
+{
+    min-height: 300px;
+}
+
+.project-img
+{
+    max-width: 300px;
+}
+
