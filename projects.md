@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Projects
+permalink: /projects/
 title-image: index_banner.png
 ---
 
