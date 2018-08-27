@@ -35,7 +35,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="/projects/">All Projects</a>
           <a class="dropdown-item" href="/robotics/">Robotics</a>
-          <a class="dropdown-item" href="/machinelearning/">Mechine Learning</a>
+          <a class="dropdown-item" href="/machinelearning/">Machine Learning</a>
         </div>
       </li>
 
@@ -60,61 +60,69 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><main role="main">
 
-        <div class="jumbotron category-jumbotron" style="background-image: url(/assets/index_banner.png)"><div class="container">
-        <h1 class="display-5"> Projects </h1>
-        <p> Selected projects including robotics, mechine learning and computer vision.
+        <div class="container post-container">
 
- </p>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+
+            <h2 class="post-title p-name" itemprop="name headline">Vehicle Detection</h2><p><a class="badge badge-dark" href="/machinelearning/"> Machine Learning </a></p><p class="description text-muted">Vehicle detection using pretrained yolo-v2 network.</p><hr /><div class="post-content e-content" itemprop="articleBody">
+                  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p>
+            This project is a part of the final project of the University of Michigan EECS 599 Autonomous Driving course.
+            The project was submitted, competed and rated as a
+            <a href="https://www.kaggle.com/c/rob599-f2017-project-task1"> Kaggle competition </a>. Our group got 6th out of 35 different groups.
+            </p>
+        </div>
     </div>
+
+    <div class="row">
+        <div class="col-12">
+            <p>
+                The dataset includes RGB images and correlated lidar depth information from simulated scenes.
+                I guess it was from GTA5 or using similar game engine. A very frustrating thing in this project was that, only
+                mid-sized cars, compact cars or SUVs were our target of detection, which means we need to distinct van and trucks,
+                and do not report them in our results.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="col-12">
+                <p>
+                    We transformed the lidar information
+                    to the same size of a layer of the RGB image using bilateral filter ,
+                    and fine tuned the network from pretrained yolo-v2 from darknet.
+                </p>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="/assets/posts_img/vehicle_detection/predictions.jpg" />
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-12">
+                <p>
+                    You can also find our <a href="/assets/posts_img/vehicle_detection/599_report.pdf" target="_blank">pdf report </a> in which we reported the details of the project.
+                </p>
+
+            </div>
+        </div>
 </div>
-<div class="container">
-    <div class="album">
-        <div class="container"><h3> <a class="text-dark" href=" /robotics/ "> Robotics </a> </h3>
-            <hr />
-            <div class="row"><div class="col-md-4">
-                    <div class="card mb-4 shadow-lg">
-                        <!----><a href=" /kat_planner.html ">
-        <img class="card-img-top" src=" /assets/kat_title.png " alt="Card image cap">
-</a><div class="card-body">
-                            <a href=" /kat_planner.html ">
-                                <h5 class="card-title"> Kinodynamic Aggressive Trajectory Planner </h5>
-                            </a>
-                            <p class="card-text"> Sampling-based motion planning and control, Robot kinodynamic, Aggressive maneuver. </p>
-                        </div>
-                    </div>
-                </div><div class="col-md-4">
-                    <div class="card mb-4 shadow-lg">
-                        <!----><div class="card-body">
-                            <a href=" /random_bin_picking.html ">
-                                <h5 class="card-title"> PR2_robot_motion_planning </h5>
-                            </a>
-                            <p class="card-text"> Inverse kinematics, singularity detection and avoidance, etc. </p>
-                        </div>
-                    </div>
-                </div><div class="col-md-4">
-                    <div class="card mb-4 shadow-lg">
-                        <!----><a href=" /autonomous_navigation_robot.html ">
-        <img class="card-img-top" src=" /assets/autonomous_navigation_robot_title.png " alt="Card image cap">
-</a><div class="card-body">
-                            <a href=" /autonomous_navigation_robot.html ">
-                                <h5 class="card-title"> Autonomous Navigation Robot </h5>
-                            </a>
-                            <p class="card-text"> mobile robot navigation, planning, SLAM, control. </p>
-                        </div>
-                    </div>
-                </div></div><h3> <a class="text-dark" href=" /machinelearning/ "> Machine Learning </a> </h3>
-            <hr />
-            <div class="row"><div class="col-md-4">
-                    <div class="card mb-4 shadow-lg">
-                        <!----><div class="card-body">
-                            <a href=" /single_image_depth_estimation.html ">
-                                <h5 class="card-title"> Depth Estimation From Single Image </h5>
-                            </a>
-                            <p class="card-text"> Estimating the depth of objects in a image using deep neural network. </p>
-                        </div>
-                    </div>
-                </div></div></div>
+
+              </div>
+
+
+        </div>
+        <div class="col-1">
+        </div>
+
     </div>
+
 </div>
 
 

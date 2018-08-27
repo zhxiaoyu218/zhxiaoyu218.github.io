@@ -5,4 +5,4 @@ permalink: /machinelearning/
 title-image: index_banner.png
 ---
 
-reinforcement learning, deep learning-based computer learning
+reinforcement learning, deep learning-based computer vision

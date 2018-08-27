@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-17T13:53:24+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T02:34:25+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
         &lt;div class=&quot;col-md-8&quot;&gt;
             &lt;p&gt;
@@ -116,7 +116,7 @@
 
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. In this project EKF control motion planning</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-03T15:52:31+08:00</published><updated>2015-12-03T15:52:31+08:00</updated><id>http://localhost:4000/depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. In this project EKF control motion planning</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-01T15:52:31+08:00</published><updated>2015-12-01T15:52:31+08:00</updated><id>http://localhost:4000/single_image_depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-12&quot;&gt;
             &lt;p&gt;
@@ -192,4 +192,49 @@
         &lt;/div&gt;
 
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Machine Learning" /><summary type="html">In this project, we aimed to solve the problem of estimating depth information from single images. We tested our algorithms on both Kinect style data and correlating RGB image and Lidar data.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Machine Learning" /><summary type="html">In this project, we aimed to solve the problem of estimating depth information from single images. We tested our algorithms on both Kinect style data and correlating RGB image and Lidar data.</summary></entry><entry><title type="html">Vehicle Detection</title><link href="http://localhost:4000/vehicle_detection.html" rel="alternate" type="text/html" title="Vehicle Detection" /><published>2015-08-01T15:52:31+08:00</published><updated>2015-08-01T15:52:31+08:00</updated><id>http://localhost:4000/vehicle_detection</id><content type="html" xml:base="http://localhost:4000/vehicle_detection.html">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+            &lt;p&gt;
+            This project is a part of the final project of the University of Michigan EECS 599 Autonomous Driving course.
+            The project was submitted, competed and rated as a
+            &lt;a href=&quot;https://www.kaggle.com/c/rob599-f2017-project-task1&quot;&gt; Kaggle competition &lt;/a&gt;. Our group got 6th out of 35 different groups.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+            &lt;p&gt;
+                The dataset includes RGB images and correlated lidar depth information from simulated scenes.
+                I guess it was from GTA5 or using similar game engine. A very frustrating thing in this project was that, only
+                mid-sized cars, compact cars or SUVs were our target of detection, which means we need to distinct van and trucks,
+                and do not report them in our results.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-12&quot;&gt;
+                &lt;p&gt;
+                    We transformed the lidar information
+                    to the same size of a layer of the RGB image using bilateral filter ,
+                    and fine tuned the network from pretrained yolo-v2 from darknet.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+            &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts_img/vehicle_detection/predictions.jpg&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-12&quot;&gt;
+                &lt;p&gt;
+                    You can also find our &lt;a href=&quot;/assets/posts_img/vehicle_detection/599_report.pdf&quot; target=&quot;_blank&quot;&gt;pdf report &lt;/a&gt; in which we reported the details of the project.
+                &lt;/p&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Machine Learning" /><summary type="html">This project is a part of the final project of the University of Michigan EECS 599 Autonomous Driving course. The project was submitted, competed and rated as a Kaggle competition . Our group got 6th out of 35 different groups.</summary></entry></feed>
