@@ -4,8 +4,6 @@
 
 layout: about
 title: Home
-title-image: index_banner.png
-
 
 author-name: Xiaoyu Zhang
 author-image: mp.jpg

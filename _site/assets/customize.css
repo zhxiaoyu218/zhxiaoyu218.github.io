@@ -1,3 +1,5 @@
+
+
 .jumbotron {
     background-size: 100% 100%;
     width: 100%;
@@ -8,6 +10,12 @@
 
 body {
   padding-top: 3.5rem;
+  /*padding-bottom: 20px;*/
+  padding-right: 0rem;
+}
+
+.navbar {
+  margin-bottom: 20px;
 }
 
 .post-container {
@@ -16,22 +24,29 @@ body {
     margin-right: 200px;
 }
 
- .page-container {
+.page-container {
     padding: 30px;
  }
+.about-container {
+    padding: 30px;
+        margin-left: 200px;
+    margin-right: 200px;
 
-.navbar-logo {
-    width: 30px;
-    height: 30px;
+}
+
+
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 100rem;
+    top: 0;
+    text-align: center;
 }
 
 #author-img {
     width: auto;
 }
 
-.logo-img {
-    max-height: 30px;
-}
 
 .project-card
 {
@@ -43,3 +58,10 @@ body {
     max-width: 300px;
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}

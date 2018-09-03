@@ -11,44 +11,55 @@
 <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
 
 <!-- All css files works for all pages which have head.html --><link rel="stylesheet" href=" /assets/customize.css "></head>
-<body><nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Xiaoyu Zhang</a>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+        <a class="navbar-brand" href="#">Xiaoyu Zhang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home</a>
-      </li>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+              Home
+              </a>
+            </li>
 
 
-<!--*******************       project items       ******************* -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/projects/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Projects
-        </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/projects/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
 
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/projects/">All Projects</a>
-          <a class="dropdown-item" href="/robotics/">Robotics</a>
-          <a class="dropdown-item" href="/machinelearning/">Machine Learning</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/projects/">All Projects</a>
+                <a class="dropdown-item" href="/robotics/">Robotics</a>
+                <a class="dropdown-item" href="/machinelearning/">Machine Learning</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+              About
+              </a>
+            </li>
+
+          </ul>
         </div>
-      </li>
-
-<!--*******************       about items       ******************* -->
-      <li class="nav-item">
-        <a class="nav-link" href="/about/">About</a>
-      </li>
-
-
-    </ul>
   </div>
 
+
 </nav>
+<!-- 
+
+            <li class="nav-item active">
+              <a class="nav-link" href="/">
+              Home
+              </a>
+            </li>
+ -->
+
 
 
 <!-- bootstrap -->
@@ -67,12 +78,9 @@
         <div class = "col-7">
                 <h2>Xiaoyu Zhang</h2>
                 <p>
-                    <p>Why I am interested in robotics?</p>
+                    <p>Making a robot is my dream after I saw the video of ASIMO, the humanoid robot from Honda Motor Co. Inc, at my high school.  After my first-year undergraduate study, with more knowledge on engineering, I realized that building such a robot, like ASIMO, is an incredible challenge. It involves the most advanced technology in many scientific fields like mathematics, physics, motion, computer vision, etc. Besides, an advanced robot also requires advanced hardware.  In my senior year at the University of Rochester, I developed my first intelligent robot, which is advised by Prof. Thomas Howard. Unlike the traditional robot, it recognizes the world and moves to the particular location. I still remember the moment, I was chasing the robot when planning module has the bug, look at the robot bump the cone when it cannot recogize the cone, ….. I’d like to have robot move with my program.</p>
 
-<p>The answer is straightforward. I am big fans of the robot when I was the child. I thought that develop robot is only the dream until my high school teacher showed me the video of ASIMO, the humanoid robot from Honda Motor Co. Inc.  After this, develop a robot is no longer being my dream, it became my goal. After my first year of study, with more knowledge on engineering, I realized that building such a robot, like ASIMO, is an incredible challenge for the scientist. It involves the most advanced technology in many scientific fields like mathematics, physics, motion, anatomy, etc.  Unfortunately,  I have no idea which area of robotics I wanna study. I wanted to develop the whole robot system, including hardware, software, control, vision, and reason.</p>
-
-<p>Some fields in robotics, such as motion planning, AI, and computer vision are real problems that can help society really move forward The robotics application, such as self-driving car is still under researching although it has been run on the road, and humanoid robot acts like a human still has not left the top research labs in the world. In fact, the task most humans perform without thinking is still a very hot area of research and very interesting. That’s why the robotics problem is worthy enough to spent a person’s life entire life developing the technology and search for the answers</p>
-
+<p>Some fields in robotics, like motion planning, control, computer vision, AI, and machine learning are real problems that can help society move forward. The robotics application, such as the self-driving car is still under researching although it has run on the road, and humanoid robot acts like a human still have not left the top research labs in the world. In fact, the task most humans perform without thinking is still a very hot area of research and very interesting. Robots manipulation on objects within a complex, dynamic and unconstrained environment That’s why the robotics problem is worthy enough to spent a person’s life entire life developing the technology and search for the answers</p>
 
                 </p>
         </div>
