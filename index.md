@@ -9,11 +9,7 @@ author-name: Xiaoyu Zhang
 author-image: mp.jpg
 ---
 
+I have received M.S. in Electrical and Computer Engineering from the University of Michigan in 2016. I holds a B.S in Electrical and Computer Engineering from the University of Rochester. 
 
-M.S. in ECE-robotics from the University of Michigan in 2017 
+My ultimate goal is to solve the robotics problem, including planning, control and mechine learning, to create intelligent robot. My main research interest is to create algorithm for robot motion   
 
-B.S. in ECE from the University of Rochester in 2016.
-
-My ultimate goal is to solve the robotics problem, including planning, control and mechine learning, to create intelligent robot. My main research interest is to create algorithm of robot motion   
-
-~~long story about my robotics career~~
