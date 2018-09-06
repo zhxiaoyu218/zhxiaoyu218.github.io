@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T21:11:43+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-06T16:54:27+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
         &lt;div class=&quot;col-md-8&quot;&gt;
             &lt;p&gt;
-            This is the first robot I built.
+            Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
             &lt;/p&gt;
             &lt;p&gt;
             In this project 
@@ -32,7 +32,7 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
             &lt;div class=&quot;card mb-4 shadow-sm project-img&quot;&gt;
                 &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/posts_img/kinodynamic_aggressive_trajectory_planner/quad.png&quot; alt=&quot;Card image cap&quot;&gt;
             &lt;/div&gt;
@@ -44,11 +44,11 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. In this project EKF control motion planning</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. In this project EKF control motion planning</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-8&quot;&gt;
             &lt;p&gt;
-            This is the first robot I built.
+            Implemented the biRRT-Connect algorithm to search the collision-free paths for the left arm of the PR2 robot in configuration space from the current configuration to a goal configuration, where object located.
             &lt;/p&gt;
             &lt;p&gt;
             In this project 
@@ -66,10 +66,19 @@
 
             &lt;/ul&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;col-4&quot;&gt;
-            &lt;img class=&quot;img-fluid img-thumbnail&quot; src=&quot;/assets/posts_img/PR2_robot_motion_planning/photo.png&quot; &gt;
-        &lt;/div&gt;
     &lt;/div&gt;
+
+    &lt;div class=&quot;col-md-2&quot;&gt;
+            &lt;video class=&quot;embed-responsive-item&quot; controls autoplay muted&gt;
+                &lt;source src=&quot;/assets/posts_img/PR2_robot_motion_planning/pr2_rrt_demo.mp4&quot; type=&quot;video/mp4&quot;&gt;
+                  Your browser does not support the video tag.
+            &lt;/video&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-4&quot;&gt;
+            &lt;img class=&quot;img-fluid img-thumbnail&quot; src=&quot;/assets/posts_img/PR2_robot_motion_planning/photo.png&quot; &gt;
+    &lt;/div&gt;
+
     &lt;hr /&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-12&quot;&gt;
@@ -80,24 +89,27 @@
 
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. In this project EKF control motion planning</summary></entry><entry><title type="html">Autonomous Navigation Robot</title><link href="http://localhost:4000/autonomous_navigation_robot.html" rel="alternate" type="text/html" title="Autonomous Navigation Robot" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/autonomous_navigation_robot</id><content type="html" xml:base="http://localhost:4000/autonomous_navigation_robot.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Implemented the biRRT-Connect algorithm to search the collision-free paths for the left arm of the PR2 robot in configuration space from the current configuration to a goal configuration, where object located. In this project EKF control motion planning</summary></entry><entry><title type="html">Autonomous Navigation Robot</title><link href="http://localhost:4000/autonomous_navigation_robot.html" rel="alternate" type="text/html" title="Autonomous Navigation Robot" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/autonomous_navigation_robot</id><content type="html" xml:base="http://localhost:4000/autonomous_navigation_robot.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-8&quot;&gt;
             &lt;p&gt;
             This is the first robot I built.
             &lt;/p&gt;
             &lt;p&gt;
-            In this project 
+            designed an autonomous navigation robot on the TurtleBot robot using ROS/C++ to recognize and avoid obstacles while pass though each waypoint.
+            &lt;/p&gt;
+            &lt;p&gt;
+                In this system:
             &lt;/p&gt;
             &lt;ul&gt;
                 &lt;li&gt;
-                    EKF
+                    Implemented the Extended Kalman filter algorithm for SLAM. 
                 &lt;/li&gt;
                 &lt;li&gt;
-                    control
+                     Developed a motion planner that was capable of navigating to waypoints in space using A* algorithm based on state lattice.
                 &lt;/li&gt;
                 &lt;li&gt;
-                    motion planning
+                    Implemented the measurement models based on the beam model and use laser-scanner sensor from Microsoft Kinect. 
                 &lt;/li&gt;
 
             &lt;/ul&gt;
@@ -116,7 +128,7 @@
 
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. In this project EKF control motion planning</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-01T15:52:31+08:00</published><updated>2015-12-01T15:52:31+08:00</updated><id>http://localhost:4000/single_image_depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. designed an autonomous navigation robot on the TurtleBot robot using ROS/C++ to recognize and avoid obstacles while pass though each waypoint. In this system: Implemented the Extended Kalman filter algorithm for SLAM. Developed a motion planner that was capable of navigating to waypoints in space using A* algorithm based on state lattice. Implemented the measurement models based on the beam model and use laser-scanner sensor from Microsoft Kinect.</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-01T15:52:31+08:00</published><updated>2015-12-01T15:52:31+08:00</updated><id>http://localhost:4000/single_image_depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-12&quot;&gt;
             &lt;p&gt;
