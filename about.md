@@ -6,8 +6,8 @@ layout: about
 title: About
 permalink: /about/
 
-author-name: Xiaoyu Zhang
-author-image: mp.jpg
+author-name: About me
+author-image: aboutimage.jpg
 ---
 
 Making a robot is my dream after I saw the video of ASIMO, the humanoid robot from Honda Motor Co. Inc, at my high school.  After my first-year undergraduate study, with more knowledge on engineering, I realized that building such a robot, like ASIMO, is an incredible challenge. It involves the most advanced technology in many scientific fields like mathematics, physics, motion, computer vision, etc. Besides, an advanced robot also requires advanced hardware.  In my senior year at the University of Rochester, I developed my first intelligent robot, which is advised by Prof. Thomas Howard. Unlike the traditional robot, it recognizes the world and moves to the particular location. I still remember the moment, I was chasing the robot when planning module has the bug, look at the robot bump the cone when it cannot recogize the cone, ..... I'd like to have robot move with my program. 
