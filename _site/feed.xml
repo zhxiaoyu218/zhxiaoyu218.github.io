@@ -1,35 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-06T16:54:27+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-11T05:16:47+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
-        &lt;div class=&quot;col-md-8&quot;&gt;
+        &lt;!-- &lt;div class=&quot;col-md-8&quot;&gt; --&gt;
             &lt;p&gt;
             Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
             &lt;/p&gt;
             &lt;p&gt;
-            In this project 
+            The overview of our algorithm appears in Algorithm：
             &lt;/p&gt;
             &lt;ul&gt;
                 &lt;li&gt;
-                    EKF
+                   RRT planning in holonomic space.
                 &lt;/li&gt;
                 &lt;li&gt;
-                    control
+                   Sampling narrow configurations with maximum margin in narrow passage.
                 &lt;/li&gt;
                 &lt;li&gt;
-                    motion planning
+                   Identifying escape velocity for each narrow configuration.
+                &lt;/li&gt;
+                &lt;li&gt;
+                   Controller based dual-direction planning with nonholonomic constraints.
                 &lt;/li&gt;
 
             &lt;/ul&gt;
-        &lt;/div&gt;
+        &lt;!-- &lt;/div&gt; --&gt;
     &lt;/div&gt;
         
-        &lt;div class=&quot;col-md-4&quot;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-4&quot;&gt;
             &lt;video class=&quot;embed-responsive-item&quot; controls autoplay muted&gt;
                 &lt;source src=&quot;/assets/posts_img/kinodynamic_aggressive_trajectory_planner/kat_demo.mp4&quot; type=&quot;video/mp4&quot;&gt;
                   Your browser does not support the video tag.
             &lt;/video&gt;
-        &lt;/div&gt;
-
-    &lt;/div&gt;
+&lt;/div&gt;
 
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-4&quot;&gt;
@@ -44,7 +47,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. In this project EKF control motion planning</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. The overview of our algorithm appears in Algorithm： RRT planning in holonomic space. Sampling narrow configurations with maximum margin in narrow passage. Identifying escape velocity for each narrow configuration. Controller based dual-direction planning with nonholonomic constraints.</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-8&quot;&gt;
             &lt;p&gt;
@@ -93,20 +96,20 @@
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-8&quot;&gt;
             &lt;p&gt;
-            This is the first robot I built.
+            This is the first autonomous robot I built. 
             &lt;/p&gt;
             &lt;p&gt;
-            designed an autonomous navigation robot on the TurtleBot robot using ROS/C++ to recognize and avoid obstacles while pass though each waypoint.
+            The goal of this project is to navigate a course of twelve ordered and oriented waypoints under autonomous control and not collide with any of the obstacles. This project is based on the TurtleBot robot using ROS/C++.
             &lt;/p&gt;
             &lt;p&gt;
                 In this system:
             &lt;/p&gt;
             &lt;ul&gt;
                 &lt;li&gt;
-                    Implemented the Extended Kalman filter algorithm for SLAM. 
+                    Implemented the EKF SLAM algorithm that make robot to know where it is and where obstacle is after action. 
                 &lt;/li&gt;
                 &lt;li&gt;
-                     Developed a motion planner that was capable of navigating to waypoints in space using A* algorithm based on state lattice.
+                    Developed a motion planner that was capable of navigating to waypoints in space using state lattice planner.
                 &lt;/li&gt;
                 &lt;li&gt;
                     Implemented the measurement models based on the beam model and use laser-scanner sensor from Microsoft Kinect. 
@@ -122,13 +125,13 @@
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-12&quot;&gt;
             &lt;p class=&quot;text-muted&quot;&gt;
-                sth sth sht hst  
+                Thanks to Prof. Thomas Howard for advising  
             &lt;/p&gt;
         &lt;/div&gt;
 
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first robot I built. designed an autonomous navigation robot on the TurtleBot robot using ROS/C++ to recognize and avoid obstacles while pass though each waypoint. In this system: Implemented the Extended Kalman filter algorithm for SLAM. Developed a motion planner that was capable of navigating to waypoints in space using A* algorithm based on state lattice. Implemented the measurement models based on the beam model and use laser-scanner sensor from Microsoft Kinect.</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-01T15:52:31+08:00</published><updated>2015-12-01T15:52:31+08:00</updated><id>http://localhost:4000/single_image_depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">This is the first autonomous robot I built. The goal of this project is to navigate a course of twelve ordered and oriented waypoints under autonomous control and not collide with any of the obstacles. This project is based on the TurtleBot robot using ROS/C++. In this system: Implemented the EKF SLAM algorithm that make robot to know where it is and where obstacle is after action. Developed a motion planner that was capable of navigating to waypoints in space using state lattice planner. Implemented the measurement models based on the beam model and use laser-scanner sensor from Microsoft Kinect.</summary></entry><entry><title type="html">Depth Estimation From Single Image</title><link href="http://localhost:4000/single_image_depth_estimation.html" rel="alternate" type="text/html" title="Depth Estimation From Single Image" /><published>2015-12-01T15:52:31+08:00</published><updated>2015-12-01T15:52:31+08:00</updated><id>http://localhost:4000/single_image_depth_estimation</id><content type="html" xml:base="http://localhost:4000/single_image_depth_estimation.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-12&quot;&gt;
             &lt;p&gt;

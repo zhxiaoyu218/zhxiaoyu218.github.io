@@ -80,36 +80,39 @@
             <h2 class="post-title p-name" itemprop="name headline">Kinodynamic Aggressive Trajectory Planner</h2><p><a class="badge badge-dark" href="/robotics/"> Robotics </a></p><p class="description text-muted">Sampling-based motion planning and control, Robot kinodynamic, Aggressive maneuver.</p><hr /><div class="post-content e-content" itemprop="articleBody">
                   <div class="container">
     <div class="row-1">
-        <div class="col-md-8">
+        <!-- <div class="col-md-8"> -->
             <p>
             Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
             </p>
             <p>
-            In this project 
+            The overview of our algorithm appears in Algorithm：
             </p>
             <ul>
                 <li>
-                    EKF
+                   RRT planning in holonomic space.
                 </li>
                 <li>
-                    control
+                   Sampling narrow configurations with maximum margin in narrow passage.
                 </li>
                 <li>
-                    motion planning
+                   Identifying escape velocity for each narrow configuration.
+                </li>
+                <li>
+                   Controller based dual-direction planning with nonholonomic constraints.
                 </li>
 
             </ul>
-        </div>
+        <!-- </div> -->
     </div>
         
-        <div class="col-md-4">
+</div>
+
+<div class="col-md-4">
             <video class="embed-responsive-item" controls autoplay muted>
                 <source src="/assets/posts_img/kinodynamic_aggressive_trajectory_planner/kat_demo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
             </video>
-        </div>
-
-    </div>
+</div>
 
     <div class="row">
         <div class="col-4">

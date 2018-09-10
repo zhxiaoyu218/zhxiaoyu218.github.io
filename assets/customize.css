@@ -64,4 +64,6 @@ body {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    width: 70%
+    height:auto;
 }
