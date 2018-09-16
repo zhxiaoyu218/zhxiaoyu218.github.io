@@ -79,6 +79,12 @@
 
             <h2 class="post-title p-name" itemprop="name headline">PR2_robot_motion_planning</h2><p><a class="badge badge-dark" href="/robotics/"> Robotics </a></p><p class="description text-muted">motion planning, biRRT, A*</p><hr /><div class="post-content e-content" itemprop="articleBody">
                   <div class="container">
+	<p>
+	Developed a navigation and manipulation planner for PR2 robot that can navigate to goal pose and move one of its end-effector to given position in the given environment.
+	</p>
+</div>
+
+<div class="container">
 	<div class="row">
         <div class="col-md-12">
         <table>
@@ -93,10 +99,10 @@
 			            </p>
 			            <ul>
 			                <li>
-			                    control
+			                    Developed motion planning based on RRT
 			                </li>
 			                <li>
-			                    motion planning
+			                    Developed motion planning based on biRRT. 
 			                </li>
 
 			            </ul>
@@ -123,7 +129,7 @@
         		<td valign="top"> 
 			        <div class="col-12">
 			            <p>
-			            Implemented the biRRT-Connect algorithm to search the collision-free paths for the left arm of the PR2 robot in configuration space from the current configuration to a goal configuration, where object located.
+			            Implemented the A*/ANA* path planning algorithm to find the shortest collision-free path for the PR2’s base from the start pose to the goal pose.
 			            </p>
 			            <p>
 			            In this project 
@@ -144,7 +150,7 @@
 				</td>
         		<td>
 		        	<video width="400" height="300" controls autoplay muted>
-		              <source src="/assets/posts_img/PR2_robot_motion_planning/pr2_rrt_demo.mp4" type="video/mp4">
+		              <source src="/assets/posts_img/PR2_robot_motion_planning/pr2_astar_demo.mp4" type="video/mp4">
 		              Your browser does not support the video tag.
 		            </video>
         		</td>
