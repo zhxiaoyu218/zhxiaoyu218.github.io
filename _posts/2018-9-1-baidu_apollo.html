@@ -1,0 +1,61 @@
+---
+#layout: post
+layout: post
+title: "Lattice-based path planner within baidu Apollo framework"
+date: 2017-4-20 00:52:31 -0700
+category: Robotics
+description: Lattice-based motion planning, Franet frame, self-driving.
+permalink: /baidu_apollo.html
+title-image: lattice_title.png
+---
+
+<div class="container">
+    <div class="row-1">
+        <!-- <div class="col-md-8"> -->
+            <p>
+            Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
+            </p>
+            <p>
+            The overview of our algorithm appears in Algorithm：
+            </p>
+            <ul>
+                <li>
+                   RRT planning in holonomic space.
+                </li>
+                <li>
+                   Sampling narrow configurations with maximum margin in narrow passage.
+                </li>
+                <li>
+                   Identifying escape velocity for each narrow configuration.
+                </li>
+                <li>
+                   Controller based dual-direction planning with nonholonomic constraints.
+                </li>
+
+            </ul>
+        <!-- </div> -->
+    </div>
+        
+</div>
+
+<div class="col-md-4">
+            <video class="embed-responsive-item" controls autoplay muted>
+                <source src="/assets/posts_img/kinodynamic_aggressive_trajectory_planner/kat_demo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+            </video>
+</div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card mb-4 shadow-sm project-img">
+                <img class="card-img-top" src="/assets/posts_img/kinodynamic_aggressive_trajectory_planner/quad.png" alt="Card image cap">
+            </div>
+    </div>
+        <div class="col-md-8">
+            <div class="card mb-4 shadow-sm project-img">
+                <img class="card-img-top" src="/assets/posts_img/kinodynamic_aggressive_trajectory_planner/wholetra.png" alt="Card image cap">
+            </div>
+        </div>
+    </div>
+
+</div>

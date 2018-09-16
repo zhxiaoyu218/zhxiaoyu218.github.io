@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-16T23:36:23+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-16T23:48:15+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Lattice-based path planner within baidu Apollo framework</title><link href="http://localhost:4000/baidu_apollo.html" rel="alternate" type="text/html" title="Lattice-based path planner within baidu Apollo framework" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/baidu_apollo</id><content type="html" xml:base="http://localhost:4000/baidu_apollo.html">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row-1&quot;&gt;
+        &lt;!-- &lt;div class=&quot;col-md-8&quot;&gt; --&gt;
+            &lt;p&gt;
+            Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
+            &lt;/p&gt;
+            &lt;p&gt;
+            The overview of our algorithm appears in Algorithm：
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                   RRT planning in holonomic space.
+                &lt;/li&gt;
+                &lt;li&gt;
+                   Sampling narrow configurations with maximum margin in narrow passage.
+                &lt;/li&gt;
+                &lt;li&gt;
+                   Identifying escape velocity for each narrow configuration.
+                &lt;/li&gt;
+                &lt;li&gt;
+                   Controller based dual-direction planning with nonholonomic constraints.
+                &lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;!-- &lt;/div&gt; --&gt;
+    &lt;/div&gt;
+        
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-4&quot;&gt;
+            &lt;video class=&quot;embed-responsive-item&quot; controls autoplay muted&gt;
+                &lt;source src=&quot;/assets/posts_img/kinodynamic_aggressive_trajectory_planner/kat_demo.mp4&quot; type=&quot;video/mp4&quot;&gt;
+                  Your browser does not support the video tag.
+            &lt;/video&gt;
+&lt;/div&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;div class=&quot;card mb-4 shadow-sm project-img&quot;&gt;
+                &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/posts_img/kinodynamic_aggressive_trajectory_planner/quad.png&quot; alt=&quot;Card image cap&quot;&gt;
+            &lt;/div&gt;
+    &lt;/div&gt;
+        &lt;div class=&quot;col-md-8&quot;&gt;
+            &lt;div class=&quot;card mb-4 shadow-sm project-img&quot;&gt;
+                &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/posts_img/kinodynamic_aggressive_trajectory_planner/wholetra.png&quot; alt=&quot;Card image cap&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. The overview of our algorithm appears in Algorithm： RRT planning in holonomic space. Sampling narrow configurations with maximum margin in narrow passage. Identifying escape velocity for each narrow configuration. Controller based dual-direction planning with nonholonomic constraints.</summary></entry><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
         &lt;!-- &lt;div class=&quot;col-md-8&quot;&gt; --&gt;
             &lt;p&gt;
