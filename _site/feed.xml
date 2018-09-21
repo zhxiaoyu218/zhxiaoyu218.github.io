@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-17T10:15:25+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Baidu Apollo Open Platform: Path Planning Module</title><link href="http://localhost:4000/baidu_apollo.html" rel="alternate" type="text/html" title="Baidu Apollo Open Platform: Path Planning Module" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/baidu_apollo</id><content type="html" xml:base="http://localhost:4000/baidu_apollo.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-21T21:34:38+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiaoyu Zhang</title><subtitle>This is the personal website of Xiaoyu Zhang</subtitle><author><name>Xiaoyu Zhang</name></author><entry><title type="html">Baidu Apollo Open Platform: Path Planning Module</title><link href="http://localhost:4000/baidu_apollo.html" rel="alternate" type="text/html" title="Baidu Apollo Open Platform: Path Planning Module" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/baidu_apollo</id><content type="html" xml:base="http://localhost:4000/baidu_apollo.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
         &lt;!-- &lt;div class=&quot;col-md-8&quot;&gt; --&gt;
             &lt;p&gt;           
@@ -9,13 +9,24 @@
             &lt;/p&gt;
             &lt;p&gt;
             The latest path planning algorithm, which is what I am working, is the Lattice planner in Frenet frame.
+                &lt;video width=&quot;400&quot; height=&quot;300&quot; controls autoplay muted&gt;
+                    &lt;source src=&quot;assets/posts_img/baidu_apollo/demo.mp4&quot; type=&quot;video/mp4&quot;&gt;
+                  Your browser does not support the video tag.
+                &lt;/video&gt;
             &lt;/p&gt;
+
             &lt;p&gt;
-            In Frenet Coordinates:
-            &lt;/p
+            The steps to generate one trajectory: 
+            &lt;/p&gt;
             &lt;ul&gt;
                 &lt;li&gt;
                    Frenet frame is such coordinate that represent the vehicle in two state, Longitudinal states s and Lateral states l. 
+                &lt;/li&gt;
+                &lt;li&gt;Step one:
+                    &lt;li&gt;
+                        Given initial state at time t
+                    &lt;/li&gt;
+
                 &lt;/li&gt;
 
             &lt;/ul&gt;
@@ -23,18 +34,31 @@
         
 &lt;/div&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;
-    &lt;video width=&quot;400&quot; height=&quot;300&quot; controls autoplay muted&gt;
-        &lt;source src=&quot;assets/posts_img/baidu_apollo/demo.mp4&quot; type=&quot;video/mp4&quot;&gt;
-          Your browser does not support the video tag.
-    &lt;/video&gt;
-&lt;/div&gt;
+
+
+&lt;h2&gt;Math in TeX notation&lt;/h2&gt;
+
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+$$ \begin{array}{rcll}
+y &amp; = &amp; x^{2}+bx+c\\
+  &amp; = &amp; x^{2}+2\times\dfrac{b}{2}x+c\\
+  &amp; = &amp; \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
+      {\left(\dfrac{b}{2}\right)^{2}+c}\\
+  &amp;  &amp; \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
+  &amp; = &amp; \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c 
+  &amp; \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
+    y+\left(\dfrac{b}{2}\right)^{2}-c &amp; = &amp; \left(x+
+    \dfrac{b}{2}\right)^{2} &amp; \left|\strut(\textrm{vertex form})\right.\\
+y-y_{S} &amp; = &amp; (x-x_{S})^{2}\\
+S(x_{S};y_{S}) &amp; \,\textrm{or}\, 
+    &amp; S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
+\end{array} $$
 
 
 
 
-
-
+&lt;!-- 
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-4&quot;&gt;
             &lt;div class=&quot;card mb-4 shadow-sm project-img&quot;&gt;
@@ -54,16 +78,16 @@
                 Thanks to baidu. 
             &lt;/p&gt;
         &lt;/div&gt;
-    &lt;/div&gt;
+    &lt;/div&gt; --&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Baidu apollo is a high performance, flexible architecture which accelerates the development, testing, and deployment of Autonomous Vehicles. And it is a open platform , we are continually update the algorithm. My main work is to research and develop path planning algorithm for Apollo. And I also researched on the algorithm that predict the trajectory surrounding vehicle. The latest path planning algorithm, which is what I am working, is the Lattice planner in Frenet frame. In Frenet Coordinates: Frenet frame is such coordinate that represent the vehicle in two state, Longitudinal states s and Lateral states l.</summary></entry><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Baidu apollo is a high performance, flexible architecture which accelerates the development, testing, and deployment of Autonomous Vehicles. And it is a open platform , we are continually update the algorithm. My main work is to research and develop path planning algorithm for Apollo. And I also researched on the algorithm that predict the trajectory surrounding vehicle. The latest path planning algorithm, which is what I am working, is the Lattice planner in Frenet frame. Your browser does not support the video tag.</summary></entry><entry><title type="html">Kinodynamic Aggressive Trajectory Planner</title><link href="http://localhost:4000/kat_planner.html" rel="alternate" type="text/html" title="Kinodynamic Aggressive Trajectory Planner" /><published>2017-04-20T15:52:31+08:00</published><updated>2017-04-20T15:52:31+08:00</updated><id>http://localhost:4000/kinodynamic_aggressive_trajectory_planner</id><content type="html" xml:base="http://localhost:4000/kat_planner.html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row-1&quot;&gt;
         &lt;!-- &lt;div class=&quot;col-md-8&quot;&gt; --&gt;
             &lt;p&gt;
             Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. 
             &lt;/p&gt;
             &lt;p&gt;
-            The overview of our algorithm appears in Algorithm：
+            The overview of four steps of this algorith：
             &lt;/p&gt;
             &lt;ul&gt;
                 &lt;li&gt;
@@ -105,7 +129,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. The overview of our algorithm appears in Algorithm： RRT planning in holonomic space. Sampling narrow configurations with maximum margin in narrow passage. Identifying escape velocity for each narrow configuration. Controller based dual-direction planning with nonholonomic constraints.</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name>Xiaoyu Zhang</name></author><category term="Robotics" /><summary type="html">Proposed a novel simple-based planning algorithm for non-holonomic constrained robot to pass through environments with narrow passages. Dividing the configuration space into holonomic set and non-holonomic set, the algorithm converts the original globally-constrained planning problem into a series of locally constrained problems. Then by combining the regional solutions, the algorithm output a globally feasible path. The overview of four steps of this algorith： RRT planning in holonomic space. Sampling narrow configurations with maximum margin in narrow passage. Identifying escape velocity for each narrow configuration. Controller based dual-direction planning with nonholonomic constraints.</summary></entry><entry><title type="html">PR2_robot_motion_planning</title><link href="http://localhost:4000/PR2_robot_motion_planning.html" rel="alternate" type="text/html" title="PR2_robot_motion_planning" /><published>2016-05-10T15:52:31+08:00</published><updated>2016-05-10T15:52:31+08:00</updated><id>http://localhost:4000/PR2_robot_motion_planning</id><content type="html" xml:base="http://localhost:4000/PR2_robot_motion_planning.html">&lt;div class=&quot;container&quot;&gt;
 	&lt;p&gt;
 	Developed a navigation and manipulation planner for PR2 robot that can navigate to goal pose and move one of its end-effector to given position in the given environment.
 	&lt;/p&gt;
