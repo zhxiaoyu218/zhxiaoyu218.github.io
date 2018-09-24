@@ -12,26 +12,9 @@ title-image: saknn_title.png
 <div class="container">
      <div class="row-1">
         <p>
-        This research was done at the Baidu Intelligent Driving group while I was working on the <a href="https://zhxiaoyu218.github.io/baidu_apollo.html">path planning algorithm(lattice planner)</a>. The lattice planner requires the prediction of trajectory of the surrounding vehicles in order to compute the collision cost(if the trajectories are intersected). And current prediction algorithm is less safety. Therefore, we presented this novel algorithm. It has been submitted to AAAI this September and the paper can be found at <a href="https://arxiv.org/abs/1809.05408">arXiv</a>.
+        This research was done at the Baidu Intelligent Driving group while I was working on the <a href="https://zhxiaoyu218.github.io/baidu_apollo.html">path planning algorithm(lattice planner)</a>. The lattice planner requires the prediction of trajectory of the surrounding vehicles in order to compute the collision cost(if the trajectories are intersected). And current prediction algorithm provides less safety result. Therefore, we presented this novel algorithm. It has been submitted to AAAI this September and the paper can be found at <a href="https://arxiv.org/abs/1809.05408">arXiv</a>. In my opinion, It is important to ensure safe driving for self-diving. And a good prediction could reduce the accident.
         </p>
-            <p>
-            The overview of four steps of this algorith：
-            </p>
-            <ul>
-                <li>
-                   RRT planning in holonomic space.
-                </li>
-                <li>
-                   Sampling narrow configurations with maximum margin in narrow passage.
-                </li>
-                <li>
-                   Identifying escape velocity for each narrow configuration.
-                </li>
-                <li>
-                   Controller based dual-direction planning with nonholonomic constraints.
-                </li>
 
-            </ul>
     </div>
         
 </div>
